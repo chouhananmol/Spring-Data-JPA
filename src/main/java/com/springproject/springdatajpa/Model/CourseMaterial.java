@@ -10,8 +10,9 @@ import lombok.*;
 @Data
 @Builder
 @ToString(exclude = "course")
-public class CourseMaterial { // O2O with Course and vice versa
+public class CourseMaterial {
 
+    // O2O with Course and vice versa
 
     @Id
     @SequenceGenerator(
